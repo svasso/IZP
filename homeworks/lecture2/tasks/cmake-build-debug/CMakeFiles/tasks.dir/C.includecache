@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/samuel/Downloads/IZP_lectures-master/lecture2/tasks/exercise1.c
+
+/home/samuel/Downloads/IZP_lectures-master/lecture2/tasks/exercise2.c
+stdio.h
+-
+
+/home/samuel/Downloads/IZP_lectures-master/lecture2/tasks/exercise3.c
+stdio.h
+-
+
+/home/samuel/Downloads/IZP_lectures-master/lecture2/tasks/exercise4.c
+stdio.h
+-
+
+/home/samuel/Downloads/IZP_lectures-master/lecture2/tasks/exercise5.c
+stdio.h
+-
+
+/home/samuel/Downloads/IZP_lectures-master/lecture2/tasks/exercise6.c
+stdio.h
+-
+
+/home/samuel/Downloads/IZP_lectures-master/lecture2/tasks/exercise7.c
+stdio.h
+-
+

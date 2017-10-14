@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/tasks.dir/exercise1.c.o CMakeFiles/tasks.dir/exercise2.c.o CMakeFiles/tasks.dir/exercise3.c.o CMakeFiles/tasks.dir/exercise4.c.o CMakeFiles/tasks.dir/exercise5.c.o CMakeFiles/tasks.dir/exercise6.c.o CMakeFiles/tasks.dir/exercise7.c.o  -o tasks 
