@@ -1,16 +1,26 @@
 #include <stdio.h>
 #include <string.h>
 
-void pokus(/* arguments */) {
-  char c;
-  c=getchar();
-  printf("cislo je %c\n",&c );
+int main(int argc,char *argv[]) {
+
+char arr[42][101];
+
+int i = 0;
+int j = 0;
+while ((scanf("%s", arr[i]) != EOF)&&(i < 40)) {
+  printf("%s\n", arr[i]);
+  i++; //do 40
+
+  while (j<101) {
+	switch: 	
+	  j++; 
+  }
+
+
+
 }
 
 
-int main() {
 
-s
-
-    return 0;
+return 0;
 }
