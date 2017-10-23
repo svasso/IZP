@@ -5,6 +5,7 @@
     Funkci implementujte bez pouziti knihovnich funkci (nepouzivat funkce z knihovny pridane pomoci #include).
 */
 
+<<<<<<< HEAD
 
 unsigned int get_even_count(const unsigned int array[], const unsigned int array_size){
  unsigned int count=0;
@@ -23,5 +24,8 @@ unsigned int array[]={52, 32, 1, 1994};
 if (get_even_count(array,4)==3) {
   printf("ok\n");
 }
+=======
+int main() {
+>>>>>>> dceb09d40b61e5a58e04192e2230a1713b37396c
     return 0;
 }
