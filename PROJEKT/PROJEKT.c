@@ -12,8 +12,8 @@ while ((scanf("%s", arr[i]) != EOF)&&(i < 40)) {
   i++; //do 40
 
   while (j<101) {
-	switch: 	
-	  j++; 
+	switch:
+	  j++;
   }
 
 
@@ -24,3 +24,4 @@ while ((scanf("%s", arr[i]) != EOF)&&(i < 40)) {
 
 return 0;
 }
+    
