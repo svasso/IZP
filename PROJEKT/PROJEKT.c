@@ -15,7 +15,7 @@ for (int i = 0; i < 42; i++) {
 }
 
 void AlphaDiff(char alpha1,char alpha2) {
-  if (getchar(alpha1)==getchar(alpha2)) {
+  if (getchar alpha1[0]==getchar alpha2[0]) {
     printf("%c\n",&alpha1 );
   }
 }
@@ -50,6 +50,16 @@ int j = 0;
 while ((scanf("%s", arr[i]) != EOF)&&(i < 42)) {
   printf("%s\n", arr[i]);
   i++; //do 40
+
+for (int i = 0; i < 42; i++)
+{
+  
+  for ( int i = 0; i < 101; i++)
+  {
+
+  }
+}
+
 
 }
 
