@@ -3,7 +3,7 @@
 
 
 void StrDiff(char word1[42],char word2[42]) {
-for ( i = 0; i < 42; i++) {
+for (int i = 0; i < 42; i++) {
   if (strcmp(word1,word2)==0)
     {
     continue;
