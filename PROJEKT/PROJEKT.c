@@ -20,6 +20,27 @@ void AlphaDiff(char alpha1,char alpha2) {
   }
 }
 
+
+
+void Output(int out1,out2)
+{
+  if (AlphaDiff)==1 && (StrDiff)==0
+  {
+    break
+    else
+    if (AlphaDiff)==1 && (StrDiff)==1
+    {
+      printf("%c\n", );
+    }
+    else
+    if ((AlphaDiff)==0 && (StrDiff)==0 )
+    {
+      break
+    }
+
+  }
+
+}
 int main(int argc,char *argv[]) {
 
 char arr[42][101];
