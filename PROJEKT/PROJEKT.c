@@ -47,16 +47,25 @@ char arr[42][101];
 
 int i = 0;
 int j = 0;
+for (int i = 0; i < 42; i++)
+{
+for ( j = 0; j < 101; j++)
+{
+  arr[i][j]='\0'
+}
+}
+i=0;
+j=0;
 while ((scanf("%s", arr[i]) != EOF)&&(i < 42)) {
   printf("%s\n", arr[i]);
   i++; //do 40
 
 for (int i = 0; i < 42; i++)
 {
-  strcmp ()
+  strncasecmp (zoznam,vstup,kolko znakov)==0//vstup z klavesnice kolko znakov> strlen(argv[1])
   for ( int i = 0; i < 101; i++)
   {
-  strcmp ()
+  strncasecmp ()
   }
 }
 
