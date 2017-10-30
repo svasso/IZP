@@ -53,17 +53,15 @@ while ((scanf("%s", arr[i]) != EOF)&&(i < 42)) {
 
 for (int i = 0; i < 42; i++)
 {
-  
+  strcmp ()
   for ( int i = 0; i < 101; i++)
   {
-
+  strcmp ()
   }
 }
 
 
 }
-
-
 
 return 0;
 }
