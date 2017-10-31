@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-
+#include <stdlib.h>
+#include <stdbool.h>
+#include <ctype.h>
 
 void StrDiff(char word1[42],char word2[42]) {
 for (int i = 0; i < 42; i++) {
@@ -15,8 +17,8 @@ for (int i = 0; i < 42; i++) {
 }
 
 void AlphaDiff(char alpha1,char alpha2) {
-  if (getchar alpha1[0]==getchar alpha2[0]) {
-    printf("%c\n",&alpha1 );
+  if (getchar alpha1[0]|| getchar alpha2[0]) {
+    printf("%s\n",&alpha1 );
   }
 }
 
@@ -41,34 +43,40 @@ void Output(int out1,out2)
   }
 
 }
+
+
+
 int main(int argc,char *argv[]) {
 
+//vynulovanie
 char arr[42][101];
-
 int i = 0;
 int j = 0;
 for (int i = 0; i < 42; i++)
 {
 for ( j = 0; j < 101; j++)
 {
-  arr[i][j]='\0'
+  arr[i][j]='\0';
 }
 }
+
+//nacitavanie do pola
 i=0;
 j=0;
 while ((scanf("%s", arr[i]) != EOF)&&(i < 42)) {
   printf("%s\n", arr[i]);
   i++; //do 40
 
+
+//porvnavanie stringov
 for (int i = 0; i < 42; i++)
 {
-  strncasecmp (zoznam,vstup,kolko znakov)==0//vstup z klavesnice kolko znakov> strlen(argv[1])
+  strncmp (zoznam,vstup,kolko znakov)==0//vstup z klavesnice kolko znakov> strlen(argv[1])
   for ( int i = 0; i < 101; i++)
   {
-  strncasecmp ()
+  strncmp ()
   }
 }
-
 
 }
 
