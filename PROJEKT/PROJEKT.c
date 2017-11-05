@@ -16,21 +16,21 @@ for (int i = 0; i < 42; i++) {
 
 }
 
-void AlphaDiff(char alpha1,char alpha2) {
-  if (getchar alpha1[0]|| getchar alpha2[0]) {
+/*void AlphaDiff(char alpha1,char alpha2) {
+ if (getchar(alpha1[0]) || getchar(alpha2[0])) {
     printf("%s\n",&alpha1 );
   }
-}
+}*/
 
 
 
-void Output(int out1,out2)
+void Output(int out1,int out2)
 {
   if (AlphaDiff)==1 && (StrDiff)==0
   {
     break
     else
-    if (AlphaDiff)==1 && (StrDiff)==1
+    if ((AlphaDiff)==1 && (StrDiff)==1)
     {
       printf("%c\n", );
     }
@@ -44,20 +44,24 @@ void Output(int out1,out2)
 
 }
 
+void VynulovanieArr(/* arguments */) {
+  char arr[42][101];
+  int i = 0;
+  int j = 0;
+  for (int i = 0; i < 42; i++)
+  {
+  for ( j = 0; j < 101; j++)
+  {
+    arr[i][j]='\0';
+  }
+  }
+
+}
 
 
 int main(int argc,char *argv[]) {
 
-//vynulovanie
-char arr[42][101];
-int i = 0;
-int j = 0;
-for (int i = 0; i < 42; i++)
-{
-for ( j = 0; j < 101; j++)
-{
-  arr[i][j]='\0';
-}
+
 }
 
 //nacitavanie do pola
