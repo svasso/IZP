@@ -16,11 +16,11 @@ for (int i = 0; i < 42; i++) {
 
 }
 
-/*void AlphaDiff(char alpha1,char alpha2) {
+void AlphaDiff(char alpha1,char alpha2) {
  if (getchar(alpha1[0]) || getchar(alpha2[0])) {
     printf("%s\n",&alpha1 );
   }
-}*/
+}
 
 
 
@@ -69,7 +69,7 @@ i=0;
 j=0;
 while ((scanf("%s", arr[i]) != EOF)&&(i < 42)) {
   printf("%s\n", arr[i]);
-  i++; //do 40
+
 
 
 //porvnavanie stringov
